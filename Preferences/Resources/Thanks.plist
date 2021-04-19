@@ -1,0 +1,17 @@
+{
+	items = (
+		{
+			cell = PSGroupCell;
+			label = "排名不分先后";
+		},
+		{
+			cell = PSGroupCell;
+			label = "不告诉你(QQ:1138470109)";
+		},
+		{
+			cell = PSGroupCell;
+			label = "L1N(QQ:505348762)";
+		}
+	);
+	title = "特别感谢";
+}

@@ -1,0 +1,9 @@
+Package: fun.yfyf.bottombannersx4
+Name: BottomBannersX4
+Version: 1.0
+Architecture: iphoneos-arm
+Description: An simple MobileSubstrate tweak from EVAN!
+Maintainer: EVAN <215288968@qq.com>
+Author: EVAN <215288968@qq.com>
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader

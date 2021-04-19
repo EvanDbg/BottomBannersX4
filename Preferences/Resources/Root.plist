@@ -1,0 +1,56 @@
+{
+	name = "BottomBannersX4";
+	subtitle = "Version: 1.0 | By: EVAN";
+	titleFontSize = 42;
+	subtitleFontSize = 16;
+	headerColor = "#2972f9";
+	darkHeaderColor = "#000000";
+	textColor = "#ffffff";
+	darkTextColor = "#ffffff";
+    items = (
+		{
+			cell = PSLinkCell;
+			detail = BBXThanksListController;
+			isController = 1;
+			label = "特别感谢";
+			icon = "help@2x.png";
+		},
+		{
+			cell = PSButtonCell;
+			icon = "qq@2x.png";
+			action = "joinQQ";
+			label = "加入我们";
+		},
+		{
+			cell = PSGroupCell;
+			label = "设置";
+			footerAlignment = 1;
+			footerText = "滑动调整通知Banner与屏幕底部之间的距离
+==>数越大越向下移动<==";
+		},
+		{
+			cell = PSSwitchCell;
+			PostNotification = "fun.yfyf.bottombannersx4/ReloadPreferences";
+			defaults = "fun.yfyf.bottombannersx4.prefs";
+			id = "enabled";
+			key = "enabled";
+			label = "开关";
+			default = 1;
+		},
+		{
+			cell = PSSliderCell;
+			PostNotification = "fun.yfyf.bottombannersx4/ReloadPreferences";
+			defaults = "fun.yfyf.bottombannersx4.prefs";
+			id = "PSSliderCell";
+			key = "kPSSliderCell";
+			label = "PSSliderCell";
+			isSegmented = 0;
+			showValue = 1;
+			min = 0;
+			max = 730;
+			default = 600;
+			requires = "enabled";
+			},
+    );
+	title = "BottomBannersX4";
+}
