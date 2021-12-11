@@ -11,3 +11,4 @@ BottomBannersX4Prefs_INSTALL_PATH = /Library/PreferenceBundles
 BottomBannersX4Prefs_CFLAGS = -fobjc-arc -Wno-deprecated-declarations
 
 include $(THEOS_MAKE_PATH)/bundle.mk
+
